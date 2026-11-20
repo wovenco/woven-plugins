@@ -1,0 +1,16 @@
+{
+  "name": "woven-plugins",
+  "description": "Official Woven plugins for Claude and Codex.",
+  "owner": {
+    "name": "Woven",
+    "url": "https://woven.ai"
+  },
+  "plugins": [
+    {
+      "name": "woven",
+      "source": "./plugins/woven",
+      "description": "Connect to your Woven account: review and send AI drafts, explore customer conversations and reports, and manage engagement points, playbooks, and research studies.",
+      "category": "productivity"
+    }
+  ]
+}
