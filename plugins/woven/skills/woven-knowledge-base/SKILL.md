@@ -1,12 +1,12 @@
 ---
 name: woven-knowledge-base
 version: 0.1
-description: "Search, author, validate, and manage Woven Knowledge Base playbooks, context documents, AI response context, guardrails, agent improvements, and reviewer feedback via the Woven External MCP server. Use when the user asks about playbooks, company or engagement-point context docs, why the AI wrote a reply or draft, active guardrails, feedback-driven improvements, or submitting thumbs-up/down feedback, or when calling search_playbooks, get_playbooks, check_playbook, create_playbook, update_playbook, delete_playbook, search_documents, get_documents, create_document, update_document, delete_document, get_ai_response_context, get_engagement_point_guardrails, list_agent_improvements, search_feedback, get_feedback, submit_feedback, or update_feedback on the woven-external-mcp server."
+description: "Search, author, validate, and manage Woven Knowledge Base playbooks, context documents, AI response context, guardrails, agent improvements, and reviewer feedback via the Woven MCP server. Use when the user asks about playbooks, company or engagement-point context docs, why the AI wrote a reply or draft, active guardrails, feedback-driven improvements, or submitting thumbs-up/down feedback, or when calling search_playbooks, get_playbooks, check_playbook, create_playbook, update_playbook, delete_playbook, search_documents, get_documents, create_document, update_document, delete_document, get_ai_response_context, get_engagement_point_guardrails, list_agent_improvements, search_feedback, get_feedback, submit_feedback, or update_feedback on the Woven MCP server."
 ---
 
 # Woven Knowledge Base & AI Context
 
-Guidance for agents connected to the **Woven External MCP server** (`woven-external-mcp`). Install this skill alongside that MCP server.
+Guidance for agents connected to the **Woven MCP server** (`https://api.woven.ai/mcp/v1`), which the Woven plugin installs. Your client may show its tools with a prefix; the tool names below are the part after it.
 
 This skill covers **Knowledge Base playbooks**, **Knowledge Base documents**, **AI response context and guardrails**, and **external reviewer feedback**. Approving or sending pending drafts (`woven-response-review`), managing engagement points/templates (`woven-engagement-points`), setting up research studies (`research-study-setup`), and analyzing conversations or reports (`woven-conversation-insights`) are covered by their own skills.
 

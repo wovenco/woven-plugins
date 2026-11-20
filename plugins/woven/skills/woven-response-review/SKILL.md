@@ -1,12 +1,12 @@
 ---
 name: woven-response-review
 version: 0.1
-description: "Review and send AI draft responses via the Woven External MCP server. Use when the user asks about the review queue, pending drafts, approving or editing responses, or when calling list_review_queue, get_conversation_review_context, approve_and_send_response_draft, or send_response_message on the woven-external-mcp server."
+description: "Review and send AI draft responses via the Woven MCP server. Use when the user asks about the review queue, pending drafts, approving or editing responses, or when calling list_review_queue, get_conversation_review_context, approve_and_send_response_draft, or send_response_message on the Woven MCP server."
 ---
 
 # Woven Response Review
 
-Guidance for agents connected to the **Woven External MCP server** (`woven-external-mcp`). Install this skill alongside that MCP server.
+Guidance for agents connected to the **Woven MCP server** (`https://api.woven.ai/mcp/v1`), which the Woven plugin installs. Your client may show its tools with a prefix; the tool names below are the part after it.
 
 This skill covers **draft review and send** only. Reports and other MCP tools are out of scope.
 

@@ -1,12 +1,12 @@
 ---
 name: woven-conversation-insights
 version: 0.1
-description: "Explore customer conversations, semantic conversation facets, contact profiles, validated message quotes, and published reports via the Woven External MCP server. Use when the user asks about customer threads, themes, tones, intents, sentiment, contact lookup, verbatim customer quotes, or campaign and conversation reports, or when calling list_conversations, get_conversations, search_messages, get_message_link, search_conversation_facets, get_conversation_facets, list_conversation_facets, summarize_conversation_facets, get_facet_distributions, list_tags, list_tag_classifiers, search_profiles, get_profiles, list_reports, or get_reports on the woven-external-mcp server."
+description: "Explore customer conversations, semantic conversation facets, contact profiles, validated message quotes, and published reports via the Woven MCP server. Use when the user asks about customer threads, themes, tones, intents, sentiment, contact lookup, verbatim customer quotes, or campaign and conversation reports, or when calling list_conversations, get_conversations, search_messages, get_message_link, search_conversation_facets, get_conversation_facets, list_conversation_facets, summarize_conversation_facets, get_facet_distributions, list_tags, list_tag_classifiers, search_profiles, get_profiles, list_reports, or get_reports on the Woven MCP server."
 ---
 
 # Woven Conversation Insights, Profiles & Reports
 
-Guidance for agents connected to the **Woven External MCP server** (`woven-external-mcp`). Install this skill alongside that MCP server.
+Guidance for agents connected to the **Woven MCP server** (`https://api.woven.ai/mcp/v1`), which the Woven plugin installs. Your client may show its tools with a prefix; the tool names below are the part after it.
 
 This skill covers **read-only discovery and analysis** across **conversations**, **conversation facets**, **contact profiles**, and **published reports**. Reviewing or sending pending drafts (`woven-response-review`), editing playbooks or documents (`woven-knowledge-base`), managing engagement points (`woven-engagement-points`), and setting up research studies (`research-study-setup`) are covered by their own skills.
 

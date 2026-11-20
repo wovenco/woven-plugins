@@ -1,12 +1,12 @@
 ---
 name: woven-engagement-points
 version: 0.1
-description: "Set up, inspect, and manage Woven engagement points, outreach templates, journeys, reengagement check-ins, and live A/B split-test experiments via the Woven External MCP server. Use when the user asks about outreach campaigns, email or SMS templates, Liquid previews, journey graphs or proposals, nudge/snooze/feedback reengagement settings, or split-test experiment results, or when calling search_engagement_points, get_engagement_points, create_engagement_point, update_engagement_point, get_outreach_templates, preview_outreach_template, create_outreach_template, update_outreach_template, get_engagement_point_journey, list_journey_proposals, get_journey_proposal, approve_journey_proposal, get_reengagement_overview, update_reengagement_config, list_experiments, get_experiment_results, conclude_experiment, or list_engagement_point_contacts on the woven-external-mcp server."
+description: "Set up, inspect, and manage Woven engagement points, outreach templates, journeys, reengagement check-ins, and live A/B split-test experiments via the Woven MCP server. Use when the user asks about outreach campaigns, email or SMS templates, Liquid previews, journey graphs or proposals, nudge/snooze/feedback reengagement settings, or split-test experiment results, or when calling search_engagement_points, get_engagement_points, create_engagement_point, update_engagement_point, get_outreach_templates, preview_outreach_template, create_outreach_template, update_outreach_template, get_engagement_point_journey, list_journey_proposals, get_journey_proposal, approve_journey_proposal, get_reengagement_overview, update_reengagement_config, list_experiments, get_experiment_results, conclude_experiment, or list_engagement_point_contacts on the Woven MCP server."
 ---
 
 # Woven Engagement Points
 
-Guidance for agents connected to the **Woven External MCP server** (`woven-external-mcp`). Install this skill alongside that MCP server.
+Guidance for agents connected to the **Woven MCP server** (`https://api.woven.ai/mcp/v1`), which the Woven plugin installs. Your client may show its tools with a prefix; the tool names below are the part after it.
 
 This skill covers **engagement points** (email and SMS outreach campaigns), **outreach templates**, **journeys and proposals**, **reengagement check-ins**, and **live A/B split-test experiments**. Research studies (`search_research_studies`), Knowledge Base playbooks/documents (`woven-knowledge-base`), draft review (`woven-response-review`), and conversation/report analysis (`woven-conversation-insights`) are covered by their own skills.
 

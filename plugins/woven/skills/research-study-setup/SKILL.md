@@ -1,12 +1,12 @@
 ---
 name: research-study-setup
 version: 0.1
-description: "Set up and inspect Woven research studies (AI interviews and usability tests) via the Woven External MCP server. Use when the user asks to create, draft, review, or edit a research study, its brief, or its interview guide, to get a test link, to list or read participant sessions, or when calling search_research_studies, get_research_studies, create_research_study, update_research_study_intake, generate_research_study_guide, update_research_study_guide, review_research_study_guide, redraft_research_study_product_brief, create_research_study_test_link, list_research_sessions, or get_research_sessions on the woven-external-mcp server."
+description: "Set up and inspect Woven research studies (AI interviews and usability tests) via the Woven MCP server. Use when the user asks to create, draft, review, or edit a research study, its brief, or its interview guide, to get a test link, to list or read participant sessions, or when calling search_research_studies, get_research_studies, create_research_study, update_research_study_intake, generate_research_study_guide, update_research_study_guide, review_research_study_guide, redraft_research_study_product_brief, create_research_study_test_link, list_research_sessions, or get_research_sessions on the Woven MCP server."
 ---
 
 # Woven Research Study Setup
 
-Guidance for agents connected to the **Woven External MCP server** (`woven-external-mcp`). Install this skill alongside that MCP server.
+Guidance for agents connected to the **Woven MCP server** (`https://api.woven.ai/mcp/v1`), which the Woven plugin installs. Your client may show its tools with a prefix; the tool names below are the part after it.
 
 This skill covers **setting up** a research study (the brief, the guide, review, and testing) and **reading participant sessions**. Launching, inviting participants, and pausing are **not** available over MCP; send the user to the study in Dash for those.
 
