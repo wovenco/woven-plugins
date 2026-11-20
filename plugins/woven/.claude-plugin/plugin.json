@@ -1,0 +1,16 @@
+{
+  "name": "woven",
+  "displayName": "Woven",
+  "version": "0.1.0",
+  "description": "Connect to your Woven account: review and send AI drafts, explore customer conversations and reports, and manage engagement points, playbooks, and research studies.",
+  "author": {
+    "name": "Woven",
+    "url": "https://woven.ai"
+  },
+  "homepage": "https://woven.ai/docs/integrations/mcp/",
+  "repository": "https://github.com/wovenco/woven-plugins",
+  "license": "MIT",
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://woven.ai/privacy-policy",
+  "keywords": ["woven", "customer-engagement", "email", "sms", "mcp"]
+}

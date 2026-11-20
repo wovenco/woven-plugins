@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "woven": {
+      "type": "http",
+      "url": "https://api.woven.ai/mcp/v1"
+    }
+  }
+}

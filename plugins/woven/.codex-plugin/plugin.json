@@ -1,0 +1,33 @@
+{
+  "name": "woven",
+  "version": "0.1.0",
+  "description": "Connect to your Woven account: review and send AI drafts, explore customer conversations and reports, and manage engagement points, playbooks, and research studies.",
+  "author": {
+    "name": "Woven",
+    "url": "https://woven.ai"
+  },
+  "homepage": "https://woven.ai/docs/integrations/mcp/",
+  "repository": "https://github.com/wovenco/woven-plugins",
+  "license": "MIT",
+  "keywords": ["woven", "customer-engagement", "email", "sms", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Woven",
+    "shortDescription": "Review AI drafts and explore customer conversations in Woven.",
+    "longDescription": "Connect to your Woven account to review and send AI-drafted replies, explore customer conversations, facets, and reports, and manage engagement points, outreach templates, playbooks, context documents, and research studies.",
+    "developerName": "Woven",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://woven.ai",
+    "privacyPolicyURL": "https://woven.ai/privacy-policy",
+    "termsOfServiceURL": "https://woven.ai/terms-of-service",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "defaultPrompt": [
+      "What's waiting in my Woven review queue?",
+      "Summarize the main themes in customer conversations this week.",
+      "Show the results of my running split-test experiments."
+    ]
+  }
+}

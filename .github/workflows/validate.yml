@@ -1,0 +1,41 @@
+name: Validate plugins
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate marketplace
+        run: npx -y @anthropic-ai/claude-code@2.1.329 plugin validate ./ --strict
+
+      - name: Validate woven plugin
+        run: npx -y @anthropic-ai/claude-code@2.1.329 plugin validate ./plugins/woven --strict
+
+      - name: Check manifest versions match
+        run: |
+          claude_version=$(jq -r .version plugins/woven/.claude-plugin/plugin.json)
+          codex_version=$(jq -r .version plugins/woven/.codex-plugin/plugin.json)
+          if [ "$claude_version" != "$codex_version" ]; then
+            echo "Claude manifest is $claude_version but Codex manifest is $codex_version"
+            exit 1
+          fi
+
+      - name: Check skills stay provider-neutral
+        run: |
+          if grep -rnE 'Claude|ChatGPT|Codex|\$\{user_config' plugins/woven/skills; then
+            echo "Skills must not name a specific assistant or use user_config variables"
+            exit 1
+          fi
