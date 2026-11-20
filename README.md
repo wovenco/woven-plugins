@@ -4,7 +4,7 @@ Official [Woven](https://woven.ai) plugins for Claude and Codex.
 
 The `woven` plugin connects your AI assistant to your Woven account through the Woven MCP server (`https://api.woven.ai/mcp/v1`). Once connected you can review and send AI-drafted replies, explore customer conversations, facets, and reports, and manage engagement points, outreach templates, playbooks, context documents, and research studies. It also includes skills that guide the assistant through each of these workflows.
 
-You need a Woven account. The first time the assistant uses a Woven tool, it asks you to sign in with your Woven login. What you can do depends on your role in Woven.
+The Woven plugin is for existing Woven customers. If you don't have a Woven login yet, ask a Woven admin on your team to invite you. The first time the assistant uses a Woven tool, it asks you to sign in with your Woven login. What you can do depends on your role in Woven.
 
 ## Install
 
