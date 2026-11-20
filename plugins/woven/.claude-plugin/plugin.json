@@ -9,6 +9,7 @@
   },
   "homepage": "https://woven.ai/docs/integrations/mcp/",
   "repository": "https://github.com/wovenco/woven-plugins",
+  "license": "MIT",
   "icon": "./assets/icon.png",
   "privacyPolicyUrl": "https://woven.ai/privacy-policy",
   "keywords": ["woven", "customer-engagement", "email", "sms", "mcp"]

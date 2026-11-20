@@ -8,6 +8,7 @@
   },
   "homepage": "https://woven.ai/docs/integrations/mcp/",
   "repository": "https://github.com/wovenco/woven-plugins",
+  "license": "MIT",
   "keywords": ["woven", "customer-engagement", "email", "sms", "mcp"],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
